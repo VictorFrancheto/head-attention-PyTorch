@@ -19,8 +19,8 @@ A **single attention head** computes the importance of each input element relati
 
 At its core, an **attention head** takes three key inputs:  
 
-- **Q (Query)** – The element making a request for information.\
-- **K (Key)** – The reference used to compare against queries.\
+- **Q (Query)** – The element making a request for information.
+- **K (Key)** – The reference used to compare against queries.
 - **V (Value)** – The actual data being retrieved.  
 
 These components allow the model to determine **which words (or elements) are most relevant** for each query.  
@@ -63,8 +63,8 @@ While a single head provides **context-aware representations**, stacking multipl
 
 ## 📊 Key Considerations  
 
-📌 **Dimensionality Matching**: The input and output dimensions must align for correct computation.
-📌 **Computational Efficiency**: Compared to MHA, a single head is **faster but less expressive**.
+📌 **Dimensionality Matching**: The input and output dimensions must align for correct computation.\
+📌 **Computational Efficiency**: Compared to MHA, a single head is **faster but less expressive**.\
 📌 **Scalability**: Used in lightweight attention-based architectures where fewer parameters are desired.  
 
 
