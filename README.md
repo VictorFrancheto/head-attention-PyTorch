@@ -67,12 +67,4 @@ While a single head provides **context-aware representations**, stacking multipl
 📌 **Computational Efficiency**: Compared to MHA, a single head is **faster but less expressive**.
 📌 **Scalability**: Used in lightweight attention-based architectures where fewer parameters are desired.  
 
----
 
-Now you understand **Head Attention** and how it forms the basis of modern AI architectures! 🚀  
-
-🔜 Want to implement it in PyTorch? Let’s code! 🧑‍💻  
-
----
-
-Would you like any adjustments, such as adding a real-world analogy or a deeper dive into optimizations? 😊
